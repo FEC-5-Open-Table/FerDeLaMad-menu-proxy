@@ -7,7 +7,7 @@ app.use('/restaurant/:id/', express.static('./public'));
 // app.use('/', express.static('./public'))
 // app.use('/restaurant/:id', express.static('./public'));
 
-const port = process.env.PORT || 6969;
+const port = process.env.PORT || 1234;
 
 
 app.use((req, res, next) => {
